@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package rpprotobuf.listing_service;
+
+import "rpprotobuf/listing_service/criteria.proto";
+
+message SearchRequest {
+    Criteria criteria = 1;
+}

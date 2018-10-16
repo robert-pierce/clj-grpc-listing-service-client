@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package rpprotobuf.listing_service;
+
+message SearchResponse {
+    enum Status {
+        SUCCESS = 0;
+        QUERY_INVALID = 1;
+        SERVER_ERROR = 2;
+    }
+    Status status = 1;
+}

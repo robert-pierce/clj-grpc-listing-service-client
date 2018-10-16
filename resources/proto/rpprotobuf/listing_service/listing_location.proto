@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package rpprotobuf.listing_service;
+
+option java_outer_classname = "ListingResponse";
+
+message Location {
+
+}
